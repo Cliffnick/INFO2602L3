@@ -1,4 +1,4 @@
- import click, sys, csv
+import click, sys, csv
 from tabulate import tabulate
 from models import db, Todo, Admin, RegularUser, User
 from sqlalchemy.exc import IntegrityError
